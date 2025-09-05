@@ -1,8 +1,12 @@
 tile.ae2stuff.grower.name=晶体催生仓
 tile.ae2stuff.inscriber.name=高级压印器
 tile.ae2stuff.wireless.name=无线接入器
+tile.ae2stuff.wireless_hub.name=无线接入中心
+
+tile.ae2stuff.wireless_hub.tooltip1=可以连接到至多%s个其它无线接入器
 
 item.ae2stuff.wireless_kit.name=无线设置工具
+item.ae2stuff.adv_wireless_kit.name=高级无线设置工具
 item.ae2stuff.visualiser.name=网络可视化工具
 
 ae2stuff.error.not_connected=未连接网络
@@ -18,6 +22,10 @@ ae2stuff.waila.wireless.channels=频道: %s
 ae2stuff.top.wireless.channels=频道:
 ae2stuff.waila.wireless.power=能量使用: %s AE/t
 ae2stuff.top.wireless.power=能量使用:
+ae2stuff.waila.wireless.name=名字: %s
+ae2stuff.top.wireless.name=名字:
+ae2stuff.waila.wireless.hub_connections=连接: %s / %s
+ae2stuff.top.wireless.hub_connections=连接:
 
 ae2stuff.gui.lock.on=锁定-不能自动移除
 ae2stuff.gui.lock.off=解锁-能够自动移除
@@ -34,6 +42,29 @@ ae2stuff.wireless.tool.dimension=两个接入器必须在相同维度
 ae2stuff.wireless.tool.noexist=绑定的接入器不存在
 ae2stuff.wireless.tool.security.network=安全违规 - 网络无法连接
 ae2stuff.wireless.tool.security.player=安全违规 - 你没有修改这个网络的权限
+ae2stuff.wireless.tool.targethubfull=目标接入中心已满
+ae2stuff.wireless.tool.twohubs=不能连接两个无线接入中心
+
+
+ae2stuff.wireless.advtool.queueing=§a队列模式
+ae2stuff.wireless.advtool.binding=§a绑定模式
+ae2stuff.wireless.advtool.queueing.activated=队列模式已激活
+ae2stuff.wireless.advtool.binding.activated=绑定模式以激活
+ae2stuff.wireless.advtool.queued=将%s,%s,%s的连接器加入了队列
+ae2stuff.wireless.advtool.queuederror=连接器已在队列中
+ae2stuff.wireless.advtool.queueing.empty=右击无线连接器以加入队列
+ae2stuff.wireless.advtool.binding.empty=切换到队列模式以将连接器加入绑定队列
+ae2stuff.wireless.advtool.queueing.notempty=当前队列中的无线连接器:
+ae2stuff.wireless.advtool.binding.notempty=当前绑定队列中的无线连接器:
+ae2stuff.wireless.advtool.connector.next=队列中的下一个连接器: %s,%s,%s
+ae2stuff.wireless.advtool.extra=§o潜行右击以在队列模式和绑定模式中切换
+ae2stuff.wireless.advtool.noconnectors=队列中没有连接器。试着把工具切换为队列模式并增加一些
+ae2stuff.wireless.advtool.pop=从队列中移除了 %s,%s,%s
+ae2stuff.wireless.advtool.hub.queued=向队列中添加了 %s 个中心槽位
+ae2stuff.wireless.advtool.queueing.clear=队列已清空
+ae2stuff.wireless.tooltips.advtool.queueing.clear=Shift + %s + R-click 以清空队列
+ae2stuff.wireless.tooltips.advtool.hubqols.binding=%s + R-click 以连接到所有空闲的中心槽位
+ae2stuff.wireless.tooltips.advtool.hubqols.queueing=%s + R-click 以添加所有空闲中心槽位到队列
 
 ae2stuff.visualiser.bound=可视化网络位于 %s,%s,%s
 ae2stuff.visualiser.mode=模式:
